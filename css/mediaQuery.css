@@ -3,11 +3,12 @@
 /*Versão para tablets*/
 @media screen and (min-width: 768px) and (max-width:992px) {
     body{
-        background-image: linear-gradient(to top, #5e908c,#c0fbff);
+        background-image: linear-gradient(to top, #36464d, #5e908c);
     }
 
     section#login{
         width: 80vw;
+        height: 300px;
     }
 
     section#login>div#imagem{
@@ -25,11 +26,12 @@
 /*Versão desktop*/
 @media screen and (min-width:992px){
     body{
-        background-image: linear-gradient(to top, #5e908c,#c0fbff);
+        background-image: linear-gradient(to top,#36464d, #5e908c);
     }
     
     section#login{
         width: 950px;
+        height: 350px;
     }
 
     section#login>div#imagem{
